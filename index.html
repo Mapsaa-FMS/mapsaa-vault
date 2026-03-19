@@ -503,14 +503,15 @@
   </div>
   <!-- Login page footer -->
   <div style="position:absolute;bottom:20px;left:0;right:0;text-align:center;font-size:11px;color:rgba(255,255,255,0.25);line-height:1.9;">
-    <div>Powered by <strong style="color:rgba(201,168,76,0.5);">Aurora Vault</strong> &nbsp;|&nbsp; Version 1.0</div>
-    <div>&copy; 2026 Samuel Junior Okuny. All rights reserved.</div>
+    <div>Powered by <strong style="color:rgba(201,168,76,0.5);">Aurora Prime Networks</strong> &nbsp;|&nbsp; Version 1.0</div>
+    <div>&copy; 2026 APN Ltd. All rights reserved.</div>
+    <div>Developed by <strong style="color:rgba(201,168,76,0.4);">Samuel Junior Okuny</strong></div>
     <div style="margin-top:4px;">
       <a href="#" onclick="showPrivacyPolicy()" style="color:rgba(201,168,76,0.4);text-decoration:none;">Privacy Policy</a>
       &nbsp;&middot;&nbsp;
       <a href="#" onclick="showTermsOfService()" style="color:rgba(201,168,76,0.4);text-decoration:none;">Terms of Service</a>
       &nbsp;&middot;&nbsp;
-      <a href="mailto:samueljuniorokuny@outlook.com" style="color:rgba(201,168,76,0.4);text-decoration:none;">Contact</a>
+      <a href="/cdn-cgi/l/email-protection#cdbeaca0b8a8a1a7b8a3a4a2bfa2a6b8a3b48da2b8b9a1a2a2a6e3aea2a0" style="color:rgba(201,168,76,0.4);text-decoration:none;">Contact</a>
     </div>
   </div>
 </div>
@@ -540,15 +541,16 @@
       <button class="btn-logout" onclick="doLogout()">Sign Out</button>
       <!-- Sidebar footer -->
       <div style="padding:12px 16px;border-top:1px solid var(--border);margin-top:8px;text-align:center;font-size:10px;color:var(--text-muted);line-height:1.9;">
-        <div>Powered by <strong style="color:var(--gold);">Aurora Vault</strong> &nbsp;|&nbsp; v1.0</div>
+        <div>Powered by <strong style="color:var(--gold);">Aurora Prime Networks</strong> &nbsp;|&nbsp; v1.0</div>
         <div style="margin-top:2px;">
           <a href="#" onclick="showPrivacyPolicy()" style="color:var(--text-muted);text-decoration:none;">Privacy Policy</a>
           &nbsp;&middot;&nbsp;
           <a href="#" onclick="showTermsOfService()" style="color:var(--text-muted);text-decoration:none;">Terms</a>
           &nbsp;&middot;&nbsp;
-          <a href="mailto:samueljuniorokuny@outlook.com" style="color:var(--text-muted);text-decoration:none;">Contact</a>
+          <a href="/cdn-cgi/l/email-protection#ee9d8f839b8b82849b8087819c81859b8097ae819b9a82818185c08d8183" style="color:var(--text-muted);text-decoration:none;">Contact</a>
         </div>
-        <div style="margin-top:2px;">&copy; 2026 Samuel Junior Okuny</div>
+        <div style="margin-top:2px;">Developed by Samuel Junior Okuny</div>
+        <div style="margin-top:2px;">&copy; 2026 APN Ltd.</div>
       </div>
     </div>
   </aside>
@@ -588,7 +590,7 @@
   <div class="modal" id="modalContent"></div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ========== DATA ==========
 const ADMIN_EMAIL = 'samueljuniorokuny@gmail.com';
 const ADMIN_PASS = 'admin2026';
@@ -2842,7 +2844,7 @@ function showTermsOfService() {
   html += '<p><strong style="color:var(--text);">2. Purpose</strong><br>MAPSAA Vault is a digital platform for managing group savings, loans, and payments for registered savings groups.</p>';
   html += '<p><strong style="color:var(--text);">3. Member Responsibilities</strong><br>Members are responsible for maintaining accurate contact and payment information, making timely savings contributions, and repaying loans on schedule.</p>';
   html += '<p><strong style="color:var(--text);">4. Payments</strong><br>All payments are processed through MTN Mobile Money. MAPSAA Vault is not responsible for delays or failures caused by MTN payment infrastructure.</p>';
-  html += '<p><strong style="color:var(--text);">5. Limitation of Liability</strong><br>MAPSAA Vault and its developer (Samuel Junior Okuny) are not liable for any financial losses resulting from system errors, payment failures, or misuse of the platform.</p>';
+  html += '<p><strong style="color:var(--text);">5. Limitation of Liability</strong><br>MAPSAA Vault and Aurora Prime Networks (APN Ltd.) are not liable for any financial losses resulting from system errors, payment failures, or misuse of the platform.</p>';
   html += '<p><strong style="color:var(--text);">6. Changes</strong><br>These terms may be updated at any time. Continued use of the platform constitutes acceptance of updated terms.</p>';
   html += '<p><strong style="color:var(--text);">7. Contact</strong><br>For questions, contact: samueljuniorokuny@outlook.com</p>';
   html += '</div>';
@@ -4102,11 +4104,4 @@ function stopInactivityTimer() {
       <span id="inactivityCountdown" style="font-size:32px;font-weight:700;color:var(--danger);font-family:'Playfair Display',serif;display:block;margin:10px 0">30</span>
       seconds.
     </div>
-    <button onclick="resetInactivityTimer()" style="width:100%;padding:14px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:none;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:600;color:var(--deep);cursor:pointer;transition:all 0.2s">
-      ✅ Stay Logged In
-    </button>
-  </div>
-</div>
-
-</body>
-</html>
+    <button onclick="resetInactivityTimer()" style="width:100%;padding:14px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));border:non
